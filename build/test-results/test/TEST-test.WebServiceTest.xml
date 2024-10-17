@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="test.WebServiceTest" tests="61" skipped="0" failures="15" errors="0" timestamp="2024-10-12T06:00:52" hostname="WIN-1APVE5L9GN2" time="182.813">
+<testsuite name="test.WebServiceTest" tests="61" skipped="0" failures="15" errors="0" timestamp="2024-10-17T04:11:09" hostname="WIN-1APVE5L9GN2" time="173.286">
   <properties/>
-  <testcase name="Купить. Истек срок действия карты - прошлые года" classname="test.WebServiceTest" time="10.98"/>
-  <testcase name="Купить. Поле 'Владелец' цифрами" classname="test.WebServiceTest" time="5.59">
-    <failure message="Element not found {.input__sub}&#13;&#10;Expected: visible&#13;&#10;Screenshot: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1728712868640.0.png&#13;&#10;Page source: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1728712868640.0.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.input__sub&quot;}" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {.input__sub}
+  <testcase name="Купить. Истек срок действия карты - прошлые года" classname="test.WebServiceTest" time="8.385"/>
+  <testcase name="Купить. Поле 'Владелец' цифрами" classname="test.WebServiceTest" time="5.577">
+    <failure message="Element not found {.input__sub}&#13;&#10;Expected: visible&#13;&#10;Screenshot: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1729138282766.0.png&#13;&#10;Page source: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1729138282766.0.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.input__sub&quot;}" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {.input__sub}
 Expected: visible
-Screenshot: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1728712868640.0.png
-Page source: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1728712868640.0.html
+Screenshot: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1729138282766.0.png
+Page source: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1729138282766.0.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.input__sub&quot;}
 	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
@@ -19,7 +19,7 @@ Caused by: NoSuchElementException: no such element: Unable to locate element: {&
 	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:165)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
-	at app//com.sun.proxy.$Proxy20.shouldBe(Unknown Source)
+	at app//com.sun.proxy.$Proxy19.shouldBe(Unknown Source)
 	at app//page.PaymentPage.messageIfIncorrect(PaymentPage.java:57)
 	at app//test.WebServiceTest.ShouldMessageIfHolderInNumbersByPayment(WebServiceTest.java:183)
 	at java.base@11.0.24/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -112,15 +112,15 @@ Caused by: NoSuchElementException: no such element: Unable to locate element: {&
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.input__sub&quot;}
-  (Session info: chrome=129.0.6668.90)
+  (Session info: chrome=129.0.6668.101)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.13.0', revision: 'ba948ece5b*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.24'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6272dccbcce5e3364d575a5bb707828b, findElement {using=css selector, value=.input__sub}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59544}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59544/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 6272dccbcce5e3364d575a5bb707828b
-	at jdk.internal.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+Command: [06aaa229a0b343514dc903b25816ad19, findElement {using=css selector, value=.input__sub}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 129.0.6668.101, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52353}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52353/devtoo..., se:cdpVersion: 129.0.6668.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 06aaa229a0b343514dc903b25816ad19
+	at jdk.internal.reflect.GeneratedConstructorAccessor17.newInstance(Unknown Source)
 	at java.base@11.0.24/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base@11.0.24/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
 	at app//org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
@@ -142,11 +142,11 @@ Session ID: 6272dccbcce5e3364d575a5bb707828b
 	... 98 more
 </failure>
   </testcase>
-  <testcase name="Купить в кредит. Поле 'Владелец' спецсимволами" classname="test.WebServiceTest" time="5.639">
-    <failure message="Element not found {.input__sub}&#13;&#10;Expected: visible&#13;&#10;Screenshot: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1728712874278.1.png&#13;&#10;Page source: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1728712874278.1.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.input__sub&quot;}" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {.input__sub}
+  <testcase name="Купить в кредит. Поле 'Владелец' спецсимволами" classname="test.WebServiceTest" time="5.784">
+    <failure message="Element not found {.input__sub}&#13;&#10;Expected: visible&#13;&#10;Screenshot: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1729138288676.1.png&#13;&#10;Page source: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1729138288676.1.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.input__sub&quot;}" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {.input__sub}
 Expected: visible
-Screenshot: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1728712874278.1.png
-Page source: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1728712874278.1.html
+Screenshot: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1729138288676.1.png
+Page source: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1729138288676.1.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.input__sub&quot;}
 	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
@@ -159,7 +159,7 @@ Caused by: NoSuchElementException: no such element: Unable to locate element: {&
 	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:165)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
-	at app//com.sun.proxy.$Proxy20.shouldBe(Unknown Source)
+	at app//com.sun.proxy.$Proxy19.shouldBe(Unknown Source)
 	at app//page.CreditPage.messageIfIncorrect(CreditPage.java:58)
 	at app//test.WebServiceTest.ShouldMessageIfHolderInSymbolsByCredit(WebServiceTest.java:647)
 	at java.base@11.0.24/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -252,15 +252,15 @@ Caused by: NoSuchElementException: no such element: Unable to locate element: {&
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.input__sub&quot;}
-  (Session info: chrome=129.0.6668.90)
+  (Session info: chrome=129.0.6668.101)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.13.0', revision: 'ba948ece5b*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.24'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6272dccbcce5e3364d575a5bb707828b, findElement {using=css selector, value=.input__sub}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59544}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59544/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 6272dccbcce5e3364d575a5bb707828b
-	at jdk.internal.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+Command: [06aaa229a0b343514dc903b25816ad19, findElement {using=css selector, value=.input__sub}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 129.0.6668.101, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52353}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52353/devtoo..., se:cdpVersion: 129.0.6668.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 06aaa229a0b343514dc903b25816ad19
+	at jdk.internal.reflect.GeneratedConstructorAccessor17.newInstance(Unknown Source)
 	at java.base@11.0.24/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base@11.0.24/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
 	at app//org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
@@ -282,17 +282,17 @@ Session ID: 6272dccbcce5e3364d575a5bb707828b
 	... 98 more
 </failure>
   </testcase>
-  <testcase name="Купить в кредит. Поле 'Номер карты' слишком длинный" classname="test.WebServiceTest" time="1.648"/>
-  <testcase name="Купить. Поле 'Год' латиницей" classname="test.WebServiceTest" time="1.199"/>
-  <testcase name="Купить в кредит. Истек срок действия карты - прошлые года" classname="test.WebServiceTest" time="1.058"/>
-  <testcase name="Купить в кредит. Поле 'Год' спецсимволами" classname="test.WebServiceTest" time="1.029"/>
-  <testcase name="Купить в кредит. Код CVC из двух символов" classname="test.WebServiceTest" time="0.992"/>
-  <testcase name="Купить. Оплата отклонённой картой" classname="test.WebServiceTest" time="16.327">
-    <failure message="Element should be visible {.notification_status_error}&#13;&#10;Element: '&lt;div class=&quot;notification notification_status_error notification_has-closer notification_stick-to_right notification_theme_alfa-on-white&quot; displayed:false&gt;&lt;/div&gt;'&#13;&#10;Actual value: hidden&#13;&#10;Screenshot: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1728712896753.2.png&#13;&#10;Page source: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1728712896753.2.html&#13;&#10;Timeout: 15 s." type="com.codeborne.selenide.ex.ElementShould">Element should be visible {.notification_status_error}
+  <testcase name="Купить в кредит. Поле 'Номер карты' слишком длинный" classname="test.WebServiceTest" time="1.495"/>
+  <testcase name="Купить. Поле 'Год' латиницей" classname="test.WebServiceTest" time="1.5"/>
+  <testcase name="Купить в кредит. Истек срок действия карты - прошлые года" classname="test.WebServiceTest" time="1.362"/>
+  <testcase name="Купить в кредит. Поле 'Год' спецсимволами" classname="test.WebServiceTest" time="1.244"/>
+  <testcase name="Купить в кредит. Код CVC из двух символов" classname="test.WebServiceTest" time="0.953"/>
+  <testcase name="Купить. Оплата отклонённой картой" classname="test.WebServiceTest" time="16.293">
+    <failure message="Element should be visible {.notification_status_error}&#13;&#10;Element: '&lt;div class=&quot;notification notification_status_error notification_has-closer notification_stick-to_right notification_theme_alfa-on-white&quot; displayed:false&gt;&lt;/div&gt;'&#13;&#10;Actual value: hidden&#13;&#10;Screenshot: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1729138311612.2.png&#13;&#10;Page source: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1729138311612.2.html&#13;&#10;Timeout: 15 s." type="com.codeborne.selenide.ex.ElementShould">Element should be visible {.notification_status_error}
 Element: '&lt;div class=&quot;notification notification_status_error notification_has-closer notification_stick-to_right notification_theme_alfa-on-white&quot; displayed:false&gt;&lt;/div&gt;'
 Actual value: hidden
-Screenshot: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1728712896753.2.png
-Page source: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1728712896753.2.html
+Screenshot: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1729138311612.2.png
+Page source: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1729138311612.2.html
 Timeout: 15 s.
 	at app//com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:149)
 	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:127)
@@ -302,7 +302,7 @@ Timeout: 15 s.
 	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:165)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
-	at app//com.sun.proxy.$Proxy20.shouldBe(Unknown Source)
+	at app//com.sun.proxy.$Proxy19.shouldBe(Unknown Source)
 	at app//page.PaymentPage.notificationIfFailure(PaymentPage.java:53)
 	at app//test.WebServiceTest.ShouldNotPayIfCardIsInactive(WebServiceTest.java:56)
 	at java.base@11.0.24/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -396,16 +396,16 @@ Timeout: 15 s.
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="Купить в кредит. Код CVC спецсимволами" classname="test.WebServiceTest" time="1.135"/>
-  <testcase name="Купить в кредит. Поле 'CVC/CVV' не заполнено" classname="test.WebServiceTest" time="0.817"/>
-  <testcase name="Купить в кредит. Поле 'Номер карты' слишком короткий" classname="test.WebServiceTest" time="0.978"/>
-  <testcase name="Купить. Код CVC кириллицей" classname="test.WebServiceTest" time="0.936"/>
-  <testcase name="Купить. Истек срок действия карты - текущий год" classname="test.WebServiceTest" time="6.966">
-    <failure message="Element should have exact text &quot;Истёк срок действия карты&quot; {.input__sub}&#13;&#10;Element: '&lt;span class=&quot;input__sub&quot;&gt;Неверно указан срок действия карты&lt;/span&gt;'&#13;&#10;Actual value: text=&quot;Неверно указан срок действия карты&quot;&#13;&#10;Screenshot: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1728712907599.3.png&#13;&#10;Page source: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1728712907599.3.html&#13;&#10;Timeout: 4 s." type="com.codeborne.selenide.ex.ElementShould">Element should have exact text &quot;Истёк срок действия карты&quot; {.input__sub}
+  <testcase name="Купить в кредит. Код CVC спецсимволами" classname="test.WebServiceTest" time="1.205"/>
+  <testcase name="Купить в кредит. Поле 'CVC/CVV' не заполнено" classname="test.WebServiceTest" time="0.851"/>
+  <testcase name="Купить в кредит. Поле 'Номер карты' слишком короткий" classname="test.WebServiceTest" time="0.995"/>
+  <testcase name="Купить. Код CVC кириллицей" classname="test.WebServiceTest" time="1.003"/>
+  <testcase name="Купить. Истек срок действия карты - текущий год" classname="test.WebServiceTest" time="5.231">
+    <failure message="Element should have exact text &quot;Истёк срок действия карты&quot; {.input__sub}&#13;&#10;Element: '&lt;span class=&quot;input__sub&quot;&gt;Неверно указан срок действия карты&lt;/span&gt;'&#13;&#10;Actual value: text=&quot;Неверно указан срок действия карты&quot;&#13;&#10;Screenshot: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1729138320894.3.png&#13;&#10;Page source: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1729138320894.3.html&#13;&#10;Timeout: 4 s." type="com.codeborne.selenide.ex.ElementShould">Element should have exact text &quot;Истёк срок действия карты&quot; {.input__sub}
 Element: '&lt;span class=&quot;input__sub&quot;&gt;Неверно указан срок действия карты&lt;/span&gt;'
 Actual value: text=&quot;Неверно указан срок действия карты&quot;
-Screenshot: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1728712907599.3.png
-Page source: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1728712907599.3.html
+Screenshot: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1729138320894.3.png
+Page source: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1729138320894.3.html
 Timeout: 4 s.
 	at app//com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:149)
 	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:127)
@@ -415,7 +415,7 @@ Timeout: 4 s.
 	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:165)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
-	at app//com.sun.proxy.$Proxy20.shouldHave(Unknown Source)
+	at app//com.sun.proxy.$Proxy19.shouldHave(Unknown Source)
 	at app//page.PaymentPage.messageIfExpired(PaymentPage.java:69)
 	at app//test.WebServiceTest.ShouldMessageIfExpiredCurrentYearByPayment(WebServiceTest.java:388)
 	at java.base@11.0.24/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -509,17 +509,17 @@ Timeout: 4 s.
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="Купить. Поле 'Месяц' из одной цифры" classname="test.WebServiceTest" time="0.942"/>
-  <testcase name="Купить в кредит. Поле 'Номер карты' латиницей" classname="test.WebServiceTest" time="0.93"/>
-  <testcase name="Купить. Поле 'Месяц' латиницей" classname="test.WebServiceTest" time="0.866"/>
-  <testcase name="Купить. Поле 'Номер карты' латиницей" classname="test.WebServiceTest" time="0.978"/>
-  <testcase name="Купить в кредит. Поле 'Владелец' не заполнено" classname="test.WebServiceTest" time="0.789"/>
-  <testcase name="Купить в кредит. Поле 'Месяц' не заполнено" classname="test.WebServiceTest" time="5.234">
-    <failure message="Element should have exact text &quot;Поле обязательно для заполнения&quot; {.input__sub}&#13;&#10;Element: '&lt;span class=&quot;input__sub&quot;&gt;Неверный формат&lt;/span&gt;'&#13;&#10;Actual value: text=&quot;Неверный формат&quot;&#13;&#10;Screenshot: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1728712917251.4.png&#13;&#10;Page source: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1728712917251.4.html&#13;&#10;Timeout: 4 s." type="com.codeborne.selenide.ex.ElementShould">Element should have exact text &quot;Поле обязательно для заполнения&quot; {.input__sub}
+  <testcase name="Купить. Поле 'Месяц' из одной цифры" classname="test.WebServiceTest" time="1.028"/>
+  <testcase name="Купить в кредит. Поле 'Номер карты' латиницей" classname="test.WebServiceTest" time="0.994"/>
+  <testcase name="Купить. Поле 'Месяц' латиницей" classname="test.WebServiceTest" time="0.88"/>
+  <testcase name="Купить. Поле 'Номер карты' латиницей" classname="test.WebServiceTest" time="1.029"/>
+  <testcase name="Купить в кредит. Поле 'Владелец' не заполнено" classname="test.WebServiceTest" time="0.766"/>
+  <testcase name="Купить в кредит. Поле 'Месяц' не заполнено" classname="test.WebServiceTest" time="5.147">
+    <failure message="Element should have exact text &quot;Поле обязательно для заполнения&quot; {.input__sub}&#13;&#10;Element: '&lt;span class=&quot;input__sub&quot;&gt;Неверный формат&lt;/span&gt;'&#13;&#10;Actual value: text=&quot;Неверный формат&quot;&#13;&#10;Screenshot: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1729138330738.4.png&#13;&#10;Page source: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1729138330738.4.html&#13;&#10;Timeout: 4 s." type="com.codeborne.selenide.ex.ElementShould">Element should have exact text &quot;Поле обязательно для заполнения&quot; {.input__sub}
 Element: '&lt;span class=&quot;input__sub&quot;&gt;Неверный формат&lt;/span&gt;'
 Actual value: text=&quot;Неверный формат&quot;
-Screenshot: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1728712917251.4.png
-Page source: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1728712917251.4.html
+Screenshot: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1729138330738.4.png
+Page source: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1729138330738.4.html
 Timeout: 4 s.
 	at app//com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:149)
 	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:127)
@@ -529,7 +529,7 @@ Timeout: 4 s.
 	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:165)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
-	at app//com.sun.proxy.$Proxy20.shouldHave(Unknown Source)
+	at app//com.sun.proxy.$Proxy19.shouldHave(Unknown Source)
 	at app//page.CreditPage.messageIfNull(CreditPage.java:62)
 	at app//test.WebServiceTest.ShouldMessageIfMonthIsNullByCredit(WebServiceTest.java:545)
 	at java.base@11.0.24/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -623,24 +623,24 @@ Timeout: 4 s.
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="Купить в кредит. Поле 'Месяц' кирилицей" classname="test.WebServiceTest" time="1.522"/>
-  <testcase name="Купить. Некорректный год" classname="test.WebServiceTest" time="0.887"/>
-  <testcase name="Купить в кредит. Поле 'Год' латиницей" classname="test.WebServiceTest" time="0.929"/>
-  <testcase name="Купить. Поле 'Год' кириллицей" classname="test.WebServiceTest" time="1.007"/>
-  <testcase name="Купить. Код CVC спецсимволами" classname="test.WebServiceTest" time="0.887"/>
-  <testcase name="Купить в кредит. Некорректный год" classname="test.WebServiceTest" time="0.897"/>
-  <testcase name="Купить в кредит. Поле 'Год' из одной цифры" classname="test.WebServiceTest" time="0.924"/>
-  <testcase name="Купить. Поле 'Номер карты' cпецсимволами" classname="test.WebServiceTest" time="0.868"/>
-  <testcase name="Купить. Поле 'Месяц' кириллицей" classname="test.WebServiceTest" time="0.937"/>
-  <testcase name="Купить. Поле 'Год' из одной цифры" classname="test.WebServiceTest" time="0.898"/>
+  <testcase name="Купить в кредит. Поле 'Месяц' кирилицей" classname="test.WebServiceTest" time="1.045"/>
+  <testcase name="Купить. Некорректный год" classname="test.WebServiceTest" time="0.916"/>
+  <testcase name="Купить в кредит. Поле 'Год' латиницей" classname="test.WebServiceTest" time="0.99"/>
+  <testcase name="Купить. Поле 'Год' кириллицей" classname="test.WebServiceTest" time="0.877"/>
+  <testcase name="Купить. Код CVC спецсимволами" classname="test.WebServiceTest" time="0.99"/>
+  <testcase name="Купить в кредит. Некорректный год" classname="test.WebServiceTest" time="0.898"/>
+  <testcase name="Купить в кредит. Поле 'Год' из одной цифры" classname="test.WebServiceTest" time="0.931"/>
+  <testcase name="Купить. Поле 'Номер карты' cпецсимволами" classname="test.WebServiceTest" time="1.107"/>
+  <testcase name="Купить. Поле 'Месяц' кириллицей" classname="test.WebServiceTest" time="0.987"/>
+  <testcase name="Купить. Поле 'Год' из одной цифры" classname="test.WebServiceTest" time="0.959"/>
   <testcase name="Купить в кредит. Код CVC латиницей" classname="test.WebServiceTest" time="0.928"/>
-  <testcase name="Купить. Поле 'Номер карты' кириллицей" classname="test.WebServiceTest" time="0.873"/>
-  <testcase name="Купить. Поле 'Номер карты' не заполнено" classname="test.WebServiceTest" time="5.144">
-    <failure message="Element should have exact text &quot;Поле обязательно для заполнения&quot; {.input__sub}&#13;&#10;Element: '&lt;span class=&quot;input__sub&quot;&gt;Неверный формат&lt;/span&gt;'&#13;&#10;Actual value: text=&quot;Неверный формат&quot;&#13;&#10;Screenshot: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1728712934074.5.png&#13;&#10;Page source: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1728712934074.5.html&#13;&#10;Timeout: 4 s." type="com.codeborne.selenide.ex.ElementShould">Element should have exact text &quot;Поле обязательно для заполнения&quot; {.input__sub}
+  <testcase name="Купить. Поле 'Номер карты' кириллицей" classname="test.WebServiceTest" time="0.916"/>
+  <testcase name="Купить. Поле 'Номер карты' не заполнено" classname="test.WebServiceTest" time="5.087">
+    <failure message="Element should have exact text &quot;Поле обязательно для заполнения&quot; {.input__sub}&#13;&#10;Element: '&lt;span class=&quot;input__sub&quot;&gt;Неверный формат&lt;/span&gt;'&#13;&#10;Actual value: text=&quot;Неверный формат&quot;&#13;&#10;Screenshot: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1729138347430.5.png&#13;&#10;Page source: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1729138347430.5.html&#13;&#10;Timeout: 4 s." type="com.codeborne.selenide.ex.ElementShould">Element should have exact text &quot;Поле обязательно для заполнения&quot; {.input__sub}
 Element: '&lt;span class=&quot;input__sub&quot;&gt;Неверный формат&lt;/span&gt;'
 Actual value: text=&quot;Неверный формат&quot;
-Screenshot: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1728712934074.5.png
-Page source: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1728712934074.5.html
+Screenshot: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1729138347430.5.png
+Page source: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1729138347430.5.html
 Timeout: 4 s.
 	at app//com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:149)
 	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:127)
@@ -650,7 +650,7 @@ Timeout: 4 s.
 	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:165)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
-	at app//com.sun.proxy.$Proxy20.shouldHave(Unknown Source)
+	at app//com.sun.proxy.$Proxy19.shouldHave(Unknown Source)
 	at app//page.PaymentPage.messageIfNull(PaymentPage.java:61)
 	at app//test.WebServiceTest.ShouldMessageIfCardNumberIsNullByPayment(WebServiceTest.java:109)
 	at java.base@11.0.24/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -744,12 +744,12 @@ Timeout: 4 s.
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="Купить. Поле 'CVC/CVV' не заполнено" classname="test.WebServiceTest" time="0.85"/>
-  <testcase name="Купить в кредит. Истек срок действия карты - текущий год" classname="test.WebServiceTest" time="5.39">
-    <failure message="Element not found {.input__sub}&#13;&#10;Expected: visible&#13;&#10;Screenshot: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1728712940310.6.png&#13;&#10;Page source: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1728712940310.6.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.input__sub&quot;}" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {.input__sub}
+  <testcase name="Купить. Поле 'CVC/CVV' не заполнено" classname="test.WebServiceTest" time="0.81"/>
+  <testcase name="Купить в кредит. Истек срок действия карты - текущий год" classname="test.WebServiceTest" time="5.406">
+    <failure message="Element not found {.input__sub}&#13;&#10;Expected: visible&#13;&#10;Screenshot: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1729138353556.6.png&#13;&#10;Page source: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1729138353556.6.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.input__sub&quot;}" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {.input__sub}
 Expected: visible
-Screenshot: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1728712940310.6.png
-Page source: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1728712940310.6.html
+Screenshot: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1729138353556.6.png
+Page source: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1729138353556.6.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.input__sub&quot;}
 	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
@@ -762,7 +762,7 @@ Caused by: NoSuchElementException: no such element: Unable to locate element: {&
 	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:165)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
-	at app//com.sun.proxy.$Proxy20.shouldBe(Unknown Source)
+	at app//com.sun.proxy.$Proxy19.shouldBe(Unknown Source)
 	at app//page.CreditPage.messageIfExpired(CreditPage.java:70)
 	at app//test.WebServiceTest.ShouldMessageIfMonthIsExpiredByCredit(WebServiceTest.java:837)
 	at java.base@11.0.24/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -855,15 +855,15 @@ Caused by: NoSuchElementException: no such element: Unable to locate element: {&
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.input__sub&quot;}
-  (Session info: chrome=129.0.6668.90)
+  (Session info: chrome=129.0.6668.101)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.13.0', revision: 'ba948ece5b*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.24'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6272dccbcce5e3364d575a5bb707828b, findElement {using=css selector, value=.input__sub}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59544}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59544/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 6272dccbcce5e3364d575a5bb707828b
-	at jdk.internal.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+Command: [06aaa229a0b343514dc903b25816ad19, findElement {using=css selector, value=.input__sub}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 129.0.6668.101, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52353}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52353/devtoo..., se:cdpVersion: 129.0.6668.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 06aaa229a0b343514dc903b25816ad19
+	at jdk.internal.reflect.GeneratedConstructorAccessor17.newInstance(Unknown Source)
 	at java.base@11.0.24/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base@11.0.24/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
 	at app//org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
@@ -885,16 +885,16 @@ Session ID: 6272dccbcce5e3364d575a5bb707828b
 	... 98 more
 </failure>
   </testcase>
-  <testcase name="Купить в кредит. Поле 'Месяц' из одной цифры" classname="test.WebServiceTest" time="1.058"/>
-  <testcase name="Купить в кредит. Поле 'Месяц'спецсимволами" classname="test.WebServiceTest" time="0.903"/>
-  <testcase name="Купить в кредит. Поле 'Номер карты' cпецсимволами" classname="test.WebServiceTest" time="0.871"/>
-  <testcase name="Купить. Поле 'Владелец' не заполнено" classname="test.WebServiceTest" time="0.779"/>
-  <testcase name="Купить в кредит. Оплата отклонённой картой" classname="test.WebServiceTest" time="16.316">
-    <failure message="Element should be visible {.notification_status_error}&#13;&#10;Element: '&lt;div class=&quot;notification notification_status_error notification_has-closer notification_stick-to_right notification_theme_alfa-on-white&quot; displayed:false&gt;&lt;/div&gt;'&#13;&#10;Actual value: hidden&#13;&#10;Screenshot: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1728712960247.7.png&#13;&#10;Page source: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1728712960247.7.html&#13;&#10;Timeout: 15 s." type="com.codeborne.selenide.ex.ElementShould">Element should be visible {.notification_status_error}
+  <testcase name="Купить в кредит. Поле 'Месяц' из одной цифры" classname="test.WebServiceTest" time="1.041"/>
+  <testcase name="Купить в кредит. Поле 'Месяц'спецсимволами" classname="test.WebServiceTest" time="0.907"/>
+  <testcase name="Купить в кредит. Поле 'Номер карты' cпецсимволами" classname="test.WebServiceTest" time="0.855"/>
+  <testcase name="Купить. Поле 'Владелец' не заполнено" classname="test.WebServiceTest" time="0.745"/>
+  <testcase name="Купить в кредит. Оплата отклонённой картой" classname="test.WebServiceTest" time="16.199">
+    <failure message="Element should be visible {.notification_status_error}&#13;&#10;Element: '&lt;div class=&quot;notification notification_status_error notification_has-closer notification_stick-to_right notification_theme_alfa-on-white&quot; displayed:false&gt;&lt;/div&gt;'&#13;&#10;Actual value: hidden&#13;&#10;Screenshot: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1729138373386.7.png&#13;&#10;Page source: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1729138373386.7.html&#13;&#10;Timeout: 15 s." type="com.codeborne.selenide.ex.ElementShould">Element should be visible {.notification_status_error}
 Element: '&lt;div class=&quot;notification notification_status_error notification_has-closer notification_stick-to_right notification_theme_alfa-on-white&quot; displayed:false&gt;&lt;/div&gt;'
 Actual value: hidden
-Screenshot: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1728712960247.7.png
-Page source: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1728712960247.7.html
+Screenshot: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1729138373386.7.png
+Page source: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1729138373386.7.html
 Timeout: 15 s.
 	at app//com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:149)
 	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:127)
@@ -904,7 +904,7 @@ Timeout: 15 s.
 	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:165)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
-	at app//com.sun.proxy.$Proxy20.shouldBe(Unknown Source)
+	at app//com.sun.proxy.$Proxy19.shouldBe(Unknown Source)
 	at app//page.CreditPage.notificationIfFailure(CreditPage.java:54)
 	at app//test.WebServiceTest.ShouldNotPayCreditIfCardIsInactive(WebServiceTest.java:491)
 	at java.base@11.0.24/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -998,13 +998,13 @@ Timeout: 15 s.
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="Купить. Поле 'Номер карты' слишком короткий" classname="test.WebServiceTest" time="1.007"/>
-  <testcase name="Купить в кредит. Поле 'Номер карты' не заполнено" classname="test.WebServiceTest" time="5.029">
-    <failure message="Element should have exact text &quot;Поле обязательно для заполнения&quot; {.input__sub}&#13;&#10;Element: '&lt;span class=&quot;input__sub&quot;&gt;Неверный формат&lt;/span&gt;'&#13;&#10;Actual value: text=&quot;Неверный формат&quot;&#13;&#10;Screenshot: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1728712966308.8.png&#13;&#10;Page source: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1728712966308.8.html&#13;&#10;Timeout: 4 s." type="com.codeborne.selenide.ex.ElementShould">Element should have exact text &quot;Поле обязательно для заполнения&quot; {.input__sub}
+  <testcase name="Купить. Поле 'Номер карты' слишком короткий" classname="test.WebServiceTest" time="0.991"/>
+  <testcase name="Купить в кредит. Поле 'Номер карты' не заполнено" classname="test.WebServiceTest" time="5.078">
+    <failure message="Element should have exact text &quot;Поле обязательно для заполнения&quot; {.input__sub}&#13;&#10;Element: '&lt;span class=&quot;input__sub&quot;&gt;Неверный формат&lt;/span&gt;'&#13;&#10;Actual value: text=&quot;Неверный формат&quot;&#13;&#10;Screenshot: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1729138379467.8.png&#13;&#10;Page source: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1729138379467.8.html&#13;&#10;Timeout: 4 s." type="com.codeborne.selenide.ex.ElementShould">Element should have exact text &quot;Поле обязательно для заполнения&quot; {.input__sub}
 Element: '&lt;span class=&quot;input__sub&quot;&gt;Неверный формат&lt;/span&gt;'
 Actual value: text=&quot;Неверный формат&quot;
-Screenshot: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1728712966308.8.png
-Page source: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1728712966308.8.html
+Screenshot: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1729138379467.8.png
+Page source: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1729138379467.8.html
 Timeout: 4 s.
 	at app//com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:149)
 	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:127)
@@ -1014,7 +1014,7 @@ Timeout: 4 s.
 	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:165)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
-	at app//com.sun.proxy.$Proxy20.shouldHave(Unknown Source)
+	at app//com.sun.proxy.$Proxy19.shouldHave(Unknown Source)
 	at app//page.CreditPage.messageIfNull(CreditPage.java:62)
 	at app//test.WebServiceTest.ShouldMessageIfCardNumberIsNullByCredit(WebServiceTest.java:558)
 	at java.base@11.0.24/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -1108,13 +1108,13 @@ Timeout: 4 s.
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="Купить. Поле 'Год' спецсимволами" classname="test.WebServiceTest" time="0.88"/>
-  <testcase name="Купить. Оплата одобренной картой" classname="test.WebServiceTest" time="5.202"/>
-  <testcase name="Купить. Поле 'Владелец' спецсимволами" classname="test.WebServiceTest" time="5.16">
-    <failure message="Element not found {.input__sub}&#13;&#10;Expected: visible&#13;&#10;Screenshot: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1728712977566.9.png&#13;&#10;Page source: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1728712977566.9.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.input__sub&quot;}" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {.input__sub}
+  <testcase name="Купить. Поле 'Год' спецсимволами" classname="test.WebServiceTest" time="1.034"/>
+  <testcase name="Купить. Оплата одобренной картой" classname="test.WebServiceTest" time="6.685"/>
+  <testcase name="Купить. Поле 'Владелец' спецсимволами" classname="test.WebServiceTest" time="5.338">
+    <failure message="Element not found {.input__sub}&#13;&#10;Expected: visible&#13;&#10;Screenshot: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1729138392402.9.png&#13;&#10;Page source: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1729138392402.9.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.input__sub&quot;}" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {.input__sub}
 Expected: visible
-Screenshot: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1728712977566.9.png
-Page source: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1728712977566.9.html
+Screenshot: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1729138392402.9.png
+Page source: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1729138392402.9.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.input__sub&quot;}
 	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
@@ -1127,7 +1127,7 @@ Caused by: NoSuchElementException: no such element: Unable to locate element: {&
 	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:165)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
-	at app//com.sun.proxy.$Proxy20.shouldBe(Unknown Source)
+	at app//com.sun.proxy.$Proxy19.shouldBe(Unknown Source)
 	at app//page.PaymentPage.messageIfIncorrect(PaymentPage.java:57)
 	at app//test.WebServiceTest.ShouldMessageIfHolderInSymbolsByPayment(WebServiceTest.java:198)
 	at java.base@11.0.24/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -1220,15 +1220,15 @@ Caused by: NoSuchElementException: no such element: Unable to locate element: {&
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.input__sub&quot;}
-  (Session info: chrome=129.0.6668.90)
+  (Session info: chrome=129.0.6668.101)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.13.0', revision: 'ba948ece5b*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.24'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6272dccbcce5e3364d575a5bb707828b, findElement {using=css selector, value=.input__sub}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59544}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59544/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 6272dccbcce5e3364d575a5bb707828b
-	at jdk.internal.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+Command: [06aaa229a0b343514dc903b25816ad19, findElement {using=css selector, value=.input__sub}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 129.0.6668.101, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52353}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52353/devtoo..., se:cdpVersion: 129.0.6668.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 06aaa229a0b343514dc903b25816ad19
+	at jdk.internal.reflect.GeneratedConstructorAccessor17.newInstance(Unknown Source)
 	at java.base@11.0.24/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base@11.0.24/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
 	at app//org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
@@ -1250,14 +1250,14 @@ Session ID: 6272dccbcce5e3364d575a5bb707828b
 	... 98 more
 </failure>
   </testcase>
-  <testcase name="Купить в кредит. Оплата одобренной картой" classname="test.WebServiceTest" time="7.787"/>
-  <testcase name="Купить. CVC из двух символов" classname="test.WebServiceTest" time="0.857"/>
-  <testcase name="Купить в кредит. Поле 'Номер карты' кириллицей" classname="test.WebServiceTest" time="0.95"/>
-  <testcase name="Купить в кредит. Поле 'Владелец' цифрами" classname="test.WebServiceTest" time="5.557">
-    <failure message="Element not found {.input__sub}&#13;&#10;Expected: visible&#13;&#10;Screenshot: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1728712992348.10.png&#13;&#10;Page source: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1728712992348.10.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.input__sub&quot;}" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {.input__sub}
+  <testcase name="Купить в кредит. Оплата одобренной картой" classname="test.WebServiceTest" time="9.4"/>
+  <testcase name="Купить. CVC из двух символов" classname="test.WebServiceTest" time="0.914"/>
+  <testcase name="Купить в кредит. Поле 'Номер карты' кириллицей" classname="test.WebServiceTest" time="0.977"/>
+  <testcase name="Купить в кредит. Поле 'Владелец' цифрами" classname="test.WebServiceTest" time="5.214">
+    <failure message="Element not found {.input__sub}&#13;&#10;Expected: visible&#13;&#10;Screenshot: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1729138409004.10.png&#13;&#10;Page source: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1729138409004.10.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.input__sub&quot;}" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {.input__sub}
 Expected: visible
-Screenshot: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1728712992348.10.png
-Page source: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1728712992348.10.html
+Screenshot: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1729138409004.10.png
+Page source: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1729138409004.10.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.input__sub&quot;}
 	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
@@ -1270,7 +1270,7 @@ Caused by: NoSuchElementException: no such element: Unable to locate element: {&
 	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:165)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
-	at app//com.sun.proxy.$Proxy20.shouldBe(Unknown Source)
+	at app//com.sun.proxy.$Proxy19.shouldBe(Unknown Source)
 	at app//page.CreditPage.messageIfIncorrect(CreditPage.java:58)
 	at app//test.WebServiceTest.ShouldMessageIfHolderInNumbersByCredit(WebServiceTest.java:632)
 	at java.base@11.0.24/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -1363,15 +1363,15 @@ Caused by: NoSuchElementException: no such element: Unable to locate element: {&
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.input__sub&quot;}
-  (Session info: chrome=129.0.6668.90)
+  (Session info: chrome=129.0.6668.101)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.13.0', revision: 'ba948ece5b*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.24'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6272dccbcce5e3364d575a5bb707828b, findElement {using=css selector, value=.input__sub}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59544}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59544/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 6272dccbcce5e3364d575a5bb707828b
-	at jdk.internal.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+Command: [06aaa229a0b343514dc903b25816ad19, findElement {using=css selector, value=.input__sub}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 129.0.6668.101, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52353}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52353/devtoo..., se:cdpVersion: 129.0.6668.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 06aaa229a0b343514dc903b25816ad19
+	at jdk.internal.reflect.GeneratedConstructorAccessor17.newInstance(Unknown Source)
 	at java.base@11.0.24/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base@11.0.24/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
 	at app//org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
@@ -1393,12 +1393,12 @@ Session ID: 6272dccbcce5e3364d575a5bb707828b
 	... 98 more
 </failure>
   </testcase>
-  <testcase name="Купить в кредит. Поле 'Год' не заполнено" classname="test.WebServiceTest" time="5.616">
-    <failure message="Element should have exact text &quot;Поле обязательно для заполнения&quot; {.input__sub}&#13;&#10;Element: '&lt;span class=&quot;input__sub&quot;&gt;Неверный формат&lt;/span&gt;'&#13;&#10;Actual value: text=&quot;Неверный формат&quot;&#13;&#10;Screenshot: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1728712998325.11.png&#13;&#10;Page source: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1728712998325.11.html&#13;&#10;Timeout: 4 s." type="com.codeborne.selenide.ex.ElementShould">Element should have exact text &quot;Поле обязательно для заполнения&quot; {.input__sub}
+  <testcase name="Купить в кредит. Поле 'Год' не заполнено" classname="test.WebServiceTest" time="5.109">
+    <failure message="Element should have exact text &quot;Поле обязательно для заполнения&quot; {.input__sub}&#13;&#10;Element: '&lt;span class=&quot;input__sub&quot;&gt;Неверный формат&lt;/span&gt;'&#13;&#10;Actual value: text=&quot;Неверный формат&quot;&#13;&#10;Screenshot: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1729138414135.11.png&#13;&#10;Page source: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1729138414135.11.html&#13;&#10;Timeout: 4 s." type="com.codeborne.selenide.ex.ElementShould">Element should have exact text &quot;Поле обязательно для заполнения&quot; {.input__sub}
 Element: '&lt;span class=&quot;input__sub&quot;&gt;Неверный формат&lt;/span&gt;'
 Actual value: text=&quot;Неверный формат&quot;
-Screenshot: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1728712998325.11.png
-Page source: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1728712998325.11.html
+Screenshot: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1729138414135.11.png
+Page source: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1729138414135.11.html
 Timeout: 4 s.
 	at app//com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:149)
 	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:127)
@@ -1408,7 +1408,7 @@ Timeout: 4 s.
 	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:165)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
-	at app//com.sun.proxy.$Proxy20.shouldHave(Unknown Source)
+	at app//com.sun.proxy.$Proxy19.shouldHave(Unknown Source)
 	at app//page.CreditPage.messageIfNull(CreditPage.java:62)
 	at app//test.WebServiceTest.ShouldMessageIfYearIsNullByCredit(WebServiceTest.java:532)
 	at java.base@11.0.24/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -1502,15 +1502,15 @@ Timeout: 4 s.
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="Купить в кредит. Поле 'Владелец' кириллицей" classname="test.WebServiceTest" time="5.113"/>
-  <testcase name="Купить. Поле 'Месяц' спецсимволами" classname="test.WebServiceTest" time="1.038"/>
-  <testcase name="Купить. Поле 'Владелец' кириллицей" classname="test.WebServiceTest" time="8.427"/>
-  <testcase name="Купить в кредит. Поле 'Год' кириллицей" classname="test.WebServiceTest" time="0.996"/>
-  <testcase name="Купить в кредит. Поле 'Месяц' равен 00" classname="test.WebServiceTest" time="5.308">
-    <failure message="Element not found {.input__sub}&#13;&#10;Expected: visible&#13;&#10;Screenshot: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1728713019172.12.png&#13;&#10;Page source: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1728713019172.12.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.input__sub&quot;}" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {.input__sub}
+  <testcase name="Купить в кредит. Поле 'Владелец' кириллицей" classname="test.WebServiceTest" time="3.066"/>
+  <testcase name="Купить. Поле 'Месяц' спецсимволами" classname="test.WebServiceTest" time="0.938"/>
+  <testcase name="Купить. Поле 'Владелец' кириллицей" classname="test.WebServiceTest" time="3.041"/>
+  <testcase name="Купить в кредит. Поле 'Год' кириллицей" classname="test.WebServiceTest" time="1.114"/>
+  <testcase name="Купить в кредит. Поле 'Месяц' равен 00" classname="test.WebServiceTest" time="5.628">
+    <failure message="Element not found {.input__sub}&#13;&#10;Expected: visible&#13;&#10;Screenshot: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1729138427914.12.png&#13;&#10;Page source: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1729138427914.12.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.input__sub&quot;}" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {.input__sub}
 Expected: visible
-Screenshot: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1728713019172.12.png
-Page source: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1728713019172.12.html
+Screenshot: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1729138427914.12.png
+Page source: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1729138427914.12.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.input__sub&quot;}
 	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
@@ -1523,7 +1523,7 @@ Caused by: NoSuchElementException: no such element: Unable to locate element: {&
 	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:165)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
-	at app//com.sun.proxy.$Proxy20.shouldBe(Unknown Source)
+	at app//com.sun.proxy.$Proxy19.shouldBe(Unknown Source)
 	at app//page.CreditPage.messageIfPeriodIsIncorrect(CreditPage.java:66)
 	at app//test.WebServiceTest.ShouldMessageIfMonthIsZeroByCredit(WebServiceTest.java:823)
 	at java.base@11.0.24/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -1616,15 +1616,15 @@ Caused by: NoSuchElementException: no such element: Unable to locate element: {&
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.input__sub&quot;}
-  (Session info: chrome=129.0.6668.90)
+  (Session info: chrome=129.0.6668.101)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.13.0', revision: 'ba948ece5b*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.24'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6272dccbcce5e3364d575a5bb707828b, findElement {using=css selector, value=.input__sub}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59544}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59544/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 6272dccbcce5e3364d575a5bb707828b
-	at jdk.internal.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+Command: [06aaa229a0b343514dc903b25816ad19, findElement {using=css selector, value=.input__sub}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 129.0.6668.101, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52353}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52353/devtoo..., se:cdpVersion: 129.0.6668.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 06aaa229a0b343514dc903b25816ad19
+	at jdk.internal.reflect.GeneratedConstructorAccessor17.newInstance(Unknown Source)
 	at java.base@11.0.24/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base@11.0.24/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
 	at app//org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
@@ -1646,14 +1646,14 @@ Session ID: 6272dccbcce5e3364d575a5bb707828b
 	... 98 more
 </failure>
   </testcase>
-  <testcase name="Купить в кредит. Поле 'Месяц' латиницей" classname="test.WebServiceTest" time="1.036"/>
-  <testcase name="Купить. Поле 'Номер карты' слишком длинный" classname="test.WebServiceTest" time="2.177"/>
-  <testcase name="Купить. Поле 'Месяц' не заполнено" classname="test.WebServiceTest" time="5.205">
-    <failure message="Element should have exact text &quot;Поле обязательно для заполнения&quot; {.input__sub}&#13;&#10;Element: '&lt;span class=&quot;input__sub&quot;&gt;Неверный формат&lt;/span&gt;'&#13;&#10;Actual value: text=&quot;Неверный формат&quot;&#13;&#10;Screenshot: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1728713027659.13.png&#13;&#10;Page source: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1728713027659.13.html&#13;&#10;Timeout: 4 s." type="com.codeborne.selenide.ex.ElementShould">Element should have exact text &quot;Поле обязательно для заполнения&quot; {.input__sub}
+  <testcase name="Купить в кредит. Поле 'Месяц' латиницей" classname="test.WebServiceTest" time="1.042"/>
+  <testcase name="Купить. Поле 'Номер карты' слишком длинный" classname="test.WebServiceTest" time="0.863"/>
+  <testcase name="Купить. Поле 'Месяц' не заполнено" classname="test.WebServiceTest" time="5.16">
+    <failure message="Element should have exact text &quot;Поле обязательно для заполнения&quot; {.input__sub}&#13;&#10;Element: '&lt;span class=&quot;input__sub&quot;&gt;Неверный формат&lt;/span&gt;'&#13;&#10;Actual value: text=&quot;Неверный формат&quot;&#13;&#10;Screenshot: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1729138435018.13.png&#13;&#10;Page source: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1729138435018.13.html&#13;&#10;Timeout: 4 s." type="com.codeborne.selenide.ex.ElementShould">Element should have exact text &quot;Поле обязательно для заполнения&quot; {.input__sub}
 Element: '&lt;span class=&quot;input__sub&quot;&gt;Неверный формат&lt;/span&gt;'
 Actual value: text=&quot;Неверный формат&quot;
-Screenshot: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1728713027659.13.png
-Page source: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1728713027659.13.html
+Screenshot: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1729138435018.13.png
+Page source: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1729138435018.13.html
 Timeout: 4 s.
 	at app//com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:149)
 	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:127)
@@ -1663,7 +1663,7 @@ Timeout: 4 s.
 	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:165)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
-	at app//com.sun.proxy.$Proxy20.shouldHave(Unknown Source)
+	at app//com.sun.proxy.$Proxy19.shouldHave(Unknown Source)
 	at app//page.PaymentPage.messageIfNull(PaymentPage.java:61)
 	at app//test.WebServiceTest.ShouldMessageIfMonthIsNullByPayment(WebServiceTest.java:96)
 	at java.base@11.0.24/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -1757,12 +1757,12 @@ Timeout: 4 s.
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="Купить в кредит. Код CVC кириллицей" classname="test.WebServiceTest" time="1.022"/>
-  <testcase name="Купить. Поле 'Месяц' равен 00" classname="test.WebServiceTest" time="5.302">
-    <failure message="Element not found {.input__sub}&#13;&#10;Expected: visible&#13;&#10;Screenshot: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1728713033940.14.png&#13;&#10;Page source: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1728713033940.14.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.input__sub&quot;}" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {.input__sub}
+  <testcase name="Купить в кредит. Код CVC кириллицей" classname="test.WebServiceTest" time="0.93"/>
+  <testcase name="Купить. Поле 'Месяц' равен 00" classname="test.WebServiceTest" time="5.289">
+    <failure message="Element not found {.input__sub}&#13;&#10;Expected: visible&#13;&#10;Screenshot: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1729138441218.14.png&#13;&#10;Page source: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1729138441218.14.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.input__sub&quot;}" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {.input__sub}
 Expected: visible
-Screenshot: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1728713033940.14.png
-Page source: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1728713033940.14.html
+Screenshot: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1729138441218.14.png
+Page source: file:/C:/Users/user/Desktop/QADiplom/build/reports/tests/1729138441218.14.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.input__sub&quot;}
 	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
@@ -1775,7 +1775,7 @@ Caused by: NoSuchElementException: no such element: Unable to locate element: {&
 	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:165)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
-	at app//com.sun.proxy.$Proxy20.shouldBe(Unknown Source)
+	at app//com.sun.proxy.$Proxy19.shouldBe(Unknown Source)
 	at app//page.PaymentPage.messageIfPeriodIsIncorrect(PaymentPage.java:65)
 	at app//test.WebServiceTest.ShouldMessageIfMonthIsZeroByPayment(WebServiceTest.java:374)
 	at java.base@11.0.24/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -1868,15 +1868,15 @@ Caused by: NoSuchElementException: no such element: Unable to locate element: {&
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.input__sub&quot;}
-  (Session info: chrome=129.0.6668.90)
+  (Session info: chrome=129.0.6668.101)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.13.0', revision: 'ba948ece5b*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.24'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6272dccbcce5e3364d575a5bb707828b, findElement {using=css selector, value=.input__sub}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59544}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59544/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 6272dccbcce5e3364d575a5bb707828b
-	at jdk.internal.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+Command: [06aaa229a0b343514dc903b25816ad19, findElement {using=css selector, value=.input__sub}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 129.0.6668.101, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52353}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52353/devtoo..., se:cdpVersion: 129.0.6668.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 06aaa229a0b343514dc903b25816ad19
+	at jdk.internal.reflect.GeneratedConstructorAccessor17.newInstance(Unknown Source)
 	at java.base@11.0.24/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base@11.0.24/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
 	at app//org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
@@ -1898,11 +1898,11 @@ Session ID: 6272dccbcce5e3364d575a5bb707828b
 	... 98 more
 </failure>
   </testcase>
-  <testcase name="Купить. Код CVC латиницей" classname="test.WebServiceTest" time="0.997"/>
+  <testcase name="Купить. Код CVC латиницей" classname="test.WebServiceTest" time="1.002"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[окт. 12, 2024 1:00:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <system-err><![CDATA[окт. 17, 2024 11:11:13 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 129
-окт. 12, 2024 1:00:57 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 129.0.6668.90. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.13.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+окт. 17, 2024 11:11:13 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 129.0.6668.101. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.13.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
 </testsuite>

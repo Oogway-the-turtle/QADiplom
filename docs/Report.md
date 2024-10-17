@@ -5,14 +5,14 @@
 1. Обычная оплата по дебетовой карте.
 2. Уникальная технология: выдача кредита по данным банковской карты.
 
-![Путешествие дня.png](..%2F..%2FPrtSc%2FDiplom%2F%D0%9F%D1%83%D1%82%D0%B5%D1%88%D0%B5%D1%81%D1%82%D0%B2%D0%B8%D0%B5%20%D0%B4%D0%BD%D1%8F.png)
+![Путешествие дня](https://github.com/user-attachments/assets/77148905-3dad-49a5-8cd9-0db53f280a18)
 
 ## Количество тест-кейсов: 61
 Процент успешных и не успешных тест-кейсов: 75.4/24.6
 
-![Allure.png](..%2F..%2FPrtSc%2FDiplom%2FAllure.png)
+![Allure](https://github.com/user-attachments/assets/70432c93-a895-4f8d-98f8-9fac88fd383b)
 
-![Statistics.png](..%2F..%2FPrtSc%2FDiplom%2FStatistics.png)
+![Statistics](https://github.com/user-attachments/assets/2fab7d4c-a0f8-4a3e-8cd7-9b9b674bb92b)
 
 ## Общие рекомендации
 Необходимо исправить все найденные баги
